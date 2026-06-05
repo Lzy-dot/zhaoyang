@@ -6,7 +6,7 @@ subtitle: Ph.D. candidate, University of Science and Technology of China
 
 profile:
   align: right
-  image: zhaoyang.png
+  image: zhaoyang.jpeg
   image_circular: false
   more_info: >
     <p>Department of Automation</p>
