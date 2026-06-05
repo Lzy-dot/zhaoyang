@@ -1,0 +1,104 @@
+<style>
+  .publications ol.bibliography {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .publications ol.bibliography > li {
+    margin-bottom: 1.6rem;
+  }
+
+  .publication-item {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr);
+    gap: 1.8rem;
+    align-items: start;
+  }
+
+  .publication-preview {
+    width: 180px;
+    aspect-ratio: 1.32;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+    background: var(--global-card-bg-color);
+  }
+
+  .publication-preview img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .publication-title {
+    margin: 0 0 0.3rem;
+    font-size: 1.55rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .publication-authors {
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .publication-authors .author-highlight {
+    font-weight: 600;
+  }
+
+  .publication-venue {
+    margin-bottom: 0.85rem;
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: 1.35;
+  }
+
+  .publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+  }
+
+  .publication-link {
+    display: inline-flex;
+    min-width: 6rem;
+    min-height: 2.4rem;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid currentColor;
+    border-radius: 4px;
+    padding: 0.25rem 1rem;
+    color: var(--global-text-color);
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .publication-link:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  @media (max-width: 640px) {
+    .publication-item {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .publication-preview {
+      width: min(100%, 240px);
+    }
+
+    .publication-title {
+      font-size: 1.25rem;
+    }
+
+    .publication-authors,
+    .publication-venue {
+      font-size: 1rem;
+    }
+  }
+</style>

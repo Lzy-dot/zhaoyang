@@ -1,0 +1,60 @@
+{% assign venue = entry.abbr | default: entry.booktitle | default: entry.journal %}
+{% assign paper_link = entry.html | default: entry.pdf | default: entry.website | default: entry.url %}
+
+<div class="publication-item">
+  <div class="publication-preview">
+    {% if entry.preview %}
+      <img src="{{ entry.preview | prepend: 'assets/img/publication_preview/' | relative_url }}" alt="{{ entry.title | strip_html }}">
+    {% endif %}
+  </div>
+
+  <div class="publication-body">
+    <h3 class="publication-title">
+      {% if paper_link %}
+        <a href="{{ paper_link }}" target="_blank" rel="noopener">{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </h3>
+
+    <div class="publication-authors">
+      {% assign authors = entry.author | split: " and " %}
+      {% for author in authors %}
+        {% assign author_parts = author | split: ", " %}
+        {% if author_parts.size > 1 %}
+          {% assign author_name = author_parts[1] | append: " " | append: author_parts[0] %}
+        {% else %}
+          {% assign author_name = author %}
+        {% endif %}
+        {% assign author_name = author_name | strip %}
+        {% if forloop.last and forloop.length > 1 %}and {% endif %}{% if author_name == "Zhaoyang Li" %}<span class="author-highlight">{{ author_name }}</span>{% else %}{{ author_name }}{% endif %}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </div>
+
+    <div class="publication-venue">
+      {{ venue }}{% if entry.year %}, {{ entry.year }}{% endif %}
+    </div>
+
+    <div class="publication-links">
+      {% if entry.arxiv %}
+        <a class="publication-link" href="https://arxiv.org/abs/{{ entry.arxiv }}" target="_blank" rel="noopener">arXiv</a>
+      {% endif %}
+      {% if entry.pdf %}
+        {% assign pdf_label = "PDF" %}
+        {% if entry.pdf contains "arxiv.org" %}
+          {% assign pdf_label = "arXiv" %}
+        {% endif %}
+        <a class="publication-link" href="{{ entry.pdf }}" target="_blank" rel="noopener">{{ pdf_label }}</a>
+      {% endif %}
+      {% if entry.html %}
+        <a class="publication-link" href="{{ entry.html }}" target="_blank" rel="noopener">HTML</a>
+      {% endif %}
+      {% if entry.code %}
+        <a class="publication-link" href="{{ entry.code }}" target="_blank" rel="noopener">Code</a>
+      {% endif %}
+      {% if entry.website %}
+        <a class="publication-link" href="{{ entry.website }}" target="_blank" rel="noopener">Demo</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
