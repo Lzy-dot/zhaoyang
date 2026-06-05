@@ -2,33 +2,50 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. candidate, University of Science and Technology of China
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: zhaoyang.png
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Department of Automation</p>
+    <p>University of Science and Technology of China</p>
+    <p>Anhui, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 6
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a Ph.D. candidate (2022-now, expected graduation in 2027) in the Department of Automation at the University of Science and Technology of China (USTC), supervised by <a href="https://scholar.google.com/citations?user=9sCGe-gAAAAJ&hl=en" target="_blank">Prof. Tianzhu Zhang</a>. I received my bachelor's degree in Computer Science and Technology from Central South University in 2022.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie in video generation, efficient vision-language models, and multimodal large language models. I have also worked extensively on segmentation model generalization, especially for challenging scenarios with limited annotations.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have published papers at top international AI conferences, including ICLR, ICML, ICCV, CVPR, ECCV, and NeurIPS. I also have industry research experience as an AIGC algorithm intern at ByteDance, where I worked on subject-to-video generation and large-scale model post-training.
+
+I am currently seeking full-time job opportunities and expect to graduate in 2027.
+
+## Honors and Awards
+
+- Huawei PhD Fellowship
+- Wu Weiren Deep Space Exploration Scholarship
+- First-class Scholarship, Graduate School of USTC (awarded 4 times)
+- First-class Scholarship, Undergraduate School of Central South University
+
+## Education
+
+- **2022.09 - now**, Ph.D. student in the Department of Automation at the University of Science and Technology of China (USTC), Hefei.
+- **2018.09 - 2022.06**, Undergraduate student in Computer Science and Technology, Central South University, Changsha.
+
+## Internships
+
+- **2025.06 - 2025.12**, ByteDance <img src="{{ '/assets/img/bytedance_logo.png' | relative_url }}" alt="ByteDance Logo" style="height: 1em; vertical-align: middle; margin-left: 4px;">, Shanghai.
+- **2022.12 - 2024.06**, Institute of Artificial Intelligence, Hefei Comprehensive National Science Center <img src="{{ '/assets/img/AI_lab.PNG' | relative_url }}" alt="Institute of Artificial Intelligence Logo" style="height: 2em; vertical-align: middle; margin-left: 2px;">, Hefei.
