@@ -6,8 +6,7 @@ title: Zhaoyang Li # the website title (if blank, full name will be used instead
 first_name: Zhaoyang
 middle_name:
 last_name: Li
-contact_note: >
-  The best way to reach me is by email.
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ph.D. candidate at USTC working on video generation, efficient vision-language models, multimodal large language models, and segmentation generalization.
 footer_text: >

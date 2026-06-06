@@ -30,7 +30,7 @@ My research interests lie in video generation, efficient vision-language models,
 
 I have published papers at top international AI conferences, including ICLR, ICML, ICCV, CVPR, ECCV, and NeurIPS. I also have industry research experience as an AIGC algorithm intern at ByteDance, where I worked on subject-to-video generation and large-scale model post-training.
 
-I am currently seeking full-time job opportunities and expect to graduate in 2027.
+I expect to graduate in Fall 2027 and welcome opportunities to connect. Please feel free to reach out by email if you are recruiting.
 
 ## News
 
