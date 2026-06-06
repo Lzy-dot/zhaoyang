@@ -8,10 +8,7 @@ profile:
   align: right
   image: zhaoyang.jpeg
   image_circular: false
-  more_info: >
-    <p>Department of Automation</p>
-    <p>University of Science and Technology of China</p>
-    <p>Anhui, China</p>
+  more_info:
 
 selected_papers: true
 social: true
@@ -24,6 +21,8 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
+{% include author-highlight-style.html %}
 
 I am currently a Ph.D. candidate (2022-now, expected graduation in 2027) in the Department of Automation at the University of Science and Technology of China (USTC), supervised by <a href="https://scholar.google.com/citations?user=9sCGe-gAAAAJ&hl=en" target="_blank">Prof. Tianzhu Zhang</a>. I received my bachelor's degree in Computer Science and Technology from Central South University in 2022.
 
