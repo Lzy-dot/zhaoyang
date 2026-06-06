@@ -28,7 +28,7 @@ I am currently a Ph.D. candidate (2022-now, expected graduation in 2027) in the 
 
 My research interests lie in video generation, efficient vision-language models, and multimodal large language models. I have also worked extensively on segmentation model generalization, especially for challenging scenarios with limited annotations.
 
-I have published papers at top international AI conferences, including ICLR, ICML, ICCV, CVPR, ECCV, and NeurIPS. I also have industry research experience as an AIGC algorithm intern at ByteDance, where I worked on subject-to-video generation and large-scale model post-training, led by <a href="https://scholar.google.com/citations?user=Kp3XAToAAAAJ&hl=en" target="_blank">Kai Su</a> and <a href="https://shallowyuan.github.io/" target="_blank">Zehuan Yuan</a>.
+I have published papers at top international AI conferences, including ICLR, ICML, ICCV, CVPR, ECCV, and NeurIPS. I also have industry research experience as an AIGC algorithm intern at ByteDance, led by <a href="https://scholar.google.com/citations?user=Kp3XAToAAAAJ&hl=en" target="_blank">Kai Su</a> and <a href="https://shallowyuan.github.io/" target="_blank">Zehuan Yuan</a>, where I worked on subject-to-video generation and large-scale model post-training.
 
 I expect to graduate in Fall 2027 and welcome opportunities to connect. Please feel free to reach out by email if you are recruiting.
 
