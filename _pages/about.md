@@ -8,10 +8,23 @@ profile:
   align: right
   image: zhaoyang.jpeg
   image_circular: false
-  more_info:
+  more_info: >
+    <div class="profile-links">
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
+      <span>|</span>
+      <a href="mailto:lizhaoyang@mail.ustc.edu.cn">Email</a>
+      <span>|</span>
+      <a href="https://scholar.google.com/citations?user=WelDcqkAAAAJ" target="_blank">Google Scholar</a>
+      <br>
+      <span>|</span>
+      <a href="https://github.com/Lzy-dot" target="_blank">GitHub</a>
+      <span>|</span>
+      <a href="https://orcid.org/0009-0000-6451-5378" target="_blank">ORCID</a>
+      <span>|</span>
+    </div>
 
 selected_papers: true
-social: true
+social: false
 
 announcements:
   enabled: false
