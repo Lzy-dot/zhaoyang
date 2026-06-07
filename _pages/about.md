@@ -10,15 +10,15 @@ profile:
   image_circular: false
   more_info: >
     <div class="profile-links">
-      <span>|</span>
-      <a href="mailto:lizhaoyang@mail.ustc.edu.cn">Email</a>
-      <span>|</span>
-      <a href="https://scholar.google.com/citations?user=WelDcqkAAAAJ" target="_blank">Google Scholar</a>
-      <span>|</span>
-      <br>
-      <span>|</span>
-      <a href="https://github.com/Lzy-dot" target="_blank">GitHub</a>
-      <span>|</span>
+      <a href="mailto:lizhaoyang@mail.ustc.edu.cn" aria-label="Email" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?user=WelDcqkAAAAJ" target="_blank" aria-label="Google Scholar" title="Google Scholar">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+      <a href="https://github.com/Lzy-dot" target="_blank" aria-label="GitHub" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
     </div>
 
 selected_papers: true

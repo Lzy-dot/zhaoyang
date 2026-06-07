@@ -7,14 +7,22 @@
   }
 
   .post article .profile .profile-links {
-    font-size: 0.84rem;
-    line-height: 1.6;
+    align-items: center;
+    display: flex;
+    font-size: 1.35rem;
+    gap: 0.9rem;
+    justify-content: center;
+    line-height: 1;
     margin-top: 0.75rem;
-    text-align: center;
   }
 
-  .post article .profile .profile-links span {
+  .post article .profile .profile-links a {
     color: var(--global-text-color);
-    margin: 0 0.025rem;
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .post article .profile .profile-links a:hover {
+    color: var(--global-theme-color);
   }
 </style>
