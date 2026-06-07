@@ -10,9 +10,11 @@ profile:
   image_circular: false
   more_info: >
     <div class="profile-links">
+      <span>|</span>
       <a href="mailto:lizhaoyang@mail.ustc.edu.cn">Email</a>
       <span>|</span>
       <a href="https://scholar.google.com/citations?user=WelDcqkAAAAJ" target="_blank">Google Scholar</a>
+      <span>|</span>
       <br>
       <span>|</span>
       <a href="https://github.com/Lzy-dot" target="_blank">GitHub</a>
