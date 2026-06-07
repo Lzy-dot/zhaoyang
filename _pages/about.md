@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <div class="profile-links">
-      <a href="{{ '/cv/' | relative_url }}">CV</a>
+      <a href="/zhaoyang/cv/">CV</a>
       <span>|</span>
       <a href="mailto:lizhaoyang@mail.ustc.edu.cn">Email</a>
       <span>|</span>
