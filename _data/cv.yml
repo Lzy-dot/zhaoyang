@@ -9,8 +9,6 @@ cv:
   social_networks:
     - network: GitHub
       username: Lzy-dot
-    - network: ORCID
-      username: 0009-0000-6451-5378
 
   sections:
     Education:
