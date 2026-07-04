@@ -42,6 +42,8 @@ My research interests lie in video generation, efficient vision-language models,
 
 I have published papers at top international AI conferences, including ICLR, ICML, ICCV, CVPR, ECCV, and NeurIPS. I also have industry research experience as an AIGC algorithm intern at ByteDance, led by <a href="https://scholar.google.com/citations?user=Kp3XAToAAAAJ&hl=en" target="_blank">Kai Su</a> and <a href="https://shallowyuan.github.io/" target="_blank">Zehuan Yuan</a>, where I worked on subject-to-video generation and large-scale model post-training.
 
+I am now a research intern in the World Models team at AceRobotics, supervised by Dr. [Fei Wang](https://scholar.google.com/citations?hl=zh-CN&user=ljt16JkAAAAJ).
+
 I expect to graduate in Fall 2027 and welcome opportunities to connect. Please feel free to reach out by email if you are recruiting.
 
 ## News
